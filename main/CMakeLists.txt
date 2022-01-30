@@ -1,2 +1,2 @@
-idf_component_register(SRCS "espidf-include-dirs.c"
-                    INCLUDE_DIRS ".")
+idf_component_register(INCLUDE_DIRS "."                                                                             
+                    SRC_DIRS "./" "testmodule")
